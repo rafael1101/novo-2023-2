@@ -1,56 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    }
-
-body{
-    font-family: 'Alkatra', cursive;  
-}
-.cabecalho {
-background-color: rgb(42, 161, 165);
-color:aliceblue;
-display: flex;
-justify-content: space-around;
-padding: 24px 0;
-margin: 0 px;
-
+:root{
+    --branco-principal:#FFFFFF;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030c;
 }
 
-#logoalura {
-    width: 20%;
-}
+  body{
+ background-color: var(--cor-de-fundo);
 
-.lista-itens{
-display: inline-block;
-margin: 0 16px;
-padding: 24px 0;
-font-size: 24px;
-}
-
-#programa{
-
-    width: 40%;
-}
-
-.escola{
-background-image: linear-gradient(#ffffff, #00c0eb);
-color: aliceblue;
-display: flex;
-
-}
-
-.escolaconteudo{
-
-    width: 35%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
-
-}
-
-.escolatitulo{
-
-    padding: 24px 0;
-    
 }
